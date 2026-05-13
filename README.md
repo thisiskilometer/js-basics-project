@@ -10,30 +10,6 @@ Natasja en AI (Claude)
 
 <mark>Q:</mark> kan je met continue ook terug naar de vraag die niet goed beantwoord was ipv weer helemaal naar het begin?
 
-```js
-while (true) {
-  profile.first_name = prompt(`${questions[0]}`);
-  profile.last_name = prompt(`${questions[1]}`);
-
-  if (profile.first_name.length <= 0 || profile.last_name.length <= 0) {
-    console.log("Please enter a valid name.");
-    continue;
-  }
-
-  profile.age = Number(prompt(`${questions[2]}`));
-
-  if (profile.age < 18) {
-    let difference = 18 - profile.age;
-    let year = difference === 1 ? "year" : "years";
-    console.log(
-      `We're sorry but you need to be 18+ to make use of our datingapp 🤷 Maybe we'll see you in ${difference} ${year}!`
-    );
-    break;
-  }
-
-}
-```
-
 <mark>A:</mark> Nee, `continue` springt altijd terug naar het begin van de loop. Voor per-vraag herhaling heb je een geneste loop per vraag nodig.
 
 * * *
