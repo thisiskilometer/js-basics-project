@@ -31,22 +31,6 @@ while (true) {
     break;
   }
 
-  profile.gender = prompt(`${questions[3]}`);
-
-  if (
-    profile.gender !== "F" &&
-    profile.gender !== "M" &&
-    profile.gender !== "X"
-  ) {
-    console.log("Please use F, M or X for gender.");
-    continue;
-  }
-
-  profile.gender_preference = prompt(`${questions[4]}`);
-  profile.location = prompt(`${questions[5]}`);
-  profile.min_age_interest = prompt(`${questions[6]}`);
-  profile.max_age_interest = prompt(`${questions[7]}`);
-  break;
 }
 ```
 
