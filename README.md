@@ -2,7 +2,7 @@
 JS basics project for Winc Full Stack Developer course
 
 <mark>Q&A</mark>  
-Natasja en AI (Claude)
+AI (Claude)
 
 * * *
 
