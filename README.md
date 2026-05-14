@@ -6,15 +6,13 @@ AI (Claude)
 
 * * *
 
-### <span style="color: rgb(53, 152, 219);">Antwoord AI gebruikt in mijn script => line 26 - 117</span>
-
 <mark>Q:</mark> kan je met continue ook terug naar de vraag die niet goed beantwoord was ipv weer helemaal naar het begin?
 
 <mark>A:</mark> Nee, `continue` springt altijd terug naar het begin van de loop. Voor per-vraag herhaling heb je een geneste loop per vraag nodig.
 
-* * *
+### <span style="color: rgb(53, 152, 219);">Antwoord AI gebruikt in mijn script => line 26 - 117</span>
 
-### <span style="color: rgb(53, 152, 219);">Antwoord AI gebruikt in mijn script => line 23, 26, 55 en 116</span>
+* * *
 
 <mark>Q:</mark> hoe breek ik vanuit een while child uit de parent while loop?
 
@@ -44,9 +42,9 @@ while (!done) {
 
 **3\. functie** — stop de hele loop in een functie en gebruik `return`.
 
-* * *
+### <span style="color: rgb(53, 152, 219);">Antwoord AI gebruikt in mijn script => line 23, 26, 55 en 116</span>
 
-### <span style="color: rgb(53, 152, 219);">Antwoord AI gebruikt in mijn script => line 56</span>
+* * *
 
 <mark>Q:</mark> alleen uitleggen waarom done = true hier niet uit de parent while breekt
 
@@ -91,6 +89,8 @@ console.log("Please use F, M or X for gender.");
 <mark>A:</mark> `done = true` verandert de variabele, maar de huidige iteratie loopt gewoon door — JS controleert `!done` pas **bij de volgende iteratie**. Dus na `done = true` worden de gender-vragen nog steeds gesteld.
 
 Oplossing: voeg een `continue` toe zodat de rest van de iteratie overgeslagen wordt.
+
+### <span style="color: rgb(53, 152, 219);">Antwoord AI gebruikt in mijn script => line 56</span>
 
 * * *
 
