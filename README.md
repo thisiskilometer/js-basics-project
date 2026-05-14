@@ -10,7 +10,7 @@ AI (Claude)
 
 <mark>A:</mark> Nee, `continue` springt altijd terug naar het begin van de loop. Voor per-vraag herhaling heb je een geneste loop per vraag nodig.
 
-### 👩‍💻 Antwoord AI gebruikt in mijn script => line 26 - 117
+#### 👩‍💻 Antwoord AI gebruikt in mijn script => line 26 - 117
 
 * * *
 
@@ -42,7 +42,7 @@ while (!done) {
 
 **3\. functie** — stop de hele loop in een functie en gebruik `return`.
 
-### 👩‍💻 Antwoord AI gebruikt in mijn script => line 23, 26, 55 en 116
+#### 👩‍💻 Antwoord AI gebruikt in mijn script => line 23, 26, 55 en 116
 
 * * *
 
@@ -90,7 +90,7 @@ console.log("Please use F, M or X for gender.");
 
 Oplossing: voeg een `continue` toe zodat de rest van de iteratie overgeslagen wordt.
 
-### 👩‍💻 Antwoord AI gebruikt in mijn script => line 56
+#### 👩‍💻 Antwoord AI gebruikt in mijn script => line 56
 
 * * *
 
